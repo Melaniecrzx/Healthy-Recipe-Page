@@ -2,12 +2,14 @@ import Image from "../ui/Image";
 import IngredientList from "../IngredientList/IngredientList";
 import RecipesPrepInfo from "../RecipePrepInfos/recipesPreInfo";
 
-export default function RecipeDetails({recipe}) {
+export default function RecipeDetails({ recipe }) {
     return (
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
             <Image
-                variants={[{ src: recipe.image.large, width: 1000 },
-                { src: recipe.image.small, width: 366 },]}
+                variants={[
+                    { src: `${import.meta.env.BASE_URL}${recipe.image.large}`, width: 1000 },
+                    { src: `${import.meta.env.BASE_URL}${recipe.image.small}`, width: 366 },
+                ]}
                 alt={`${recipe.title} image`}
                 sizes="100vw"
                 className="rounded-[20px]"
