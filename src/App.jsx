@@ -17,7 +17,9 @@ const router = createBrowserRouter([
       { path: "/recipes/:id", element: <Suspense fallback={<p>Chargement...</p>}><RecipeDetailsPage /></Suspense> }
     ]
   }
-])
+], {
+  basename: "/Healthy-Recipe-Page"
+})
 
 
 function App() {

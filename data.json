@@ -4,8 +4,8 @@
     "title": "Mediterranean Chickpea Salad",
     "slug": "mediterranean-chickpea-salad",
     "image": {
-      "large": "/assets/images/mediterranean-chickpea-salad-large.webp",
-      "small": "/assets/images/mediterranean-chickpea-salad-small.webp"
+      "large": "assets/images/mediterranean-chickpea-salad-large.webp",
+      "small": "assets/images/mediterranean-chickpea-salad-small.webp"
     },
     "overview": "A refreshing, protein-packed salad tossed in a lemon-olive oil dressing.",
     "servings": 2,
@@ -34,8 +34,8 @@
     "title": "Avocado & Tomato Wholegrain Toast",
     "slug": "avocado-tomato-wholegrain-toast",
     "image": {
-      "large": "/assets/images/avocado-tomato-wholegrain-toast-large.webp",
-      "small": "/assets/images/avocado-tomato-wholegrain-toast-small.webp"
+      "large": "assets/images/avocado-tomato-wholegrain-toast-large.webp",
+      "small": "assets/images/avocado-tomato-wholegrain-toast-small.webp"
     },
     "overview": "Creamy avocado spread over toasted wholegrain bread, topped with juicy tomatoes.",
     "servings": 1,

@@ -98,8 +98,8 @@ export default function Recipes() {
                                 <div key={recipe.id} className="h-full">
                                     <RecipeCard
                                         img={[
-                                            { src: recipe.image.large, width: 1000 },
-                                            { src: recipe.image.small, width: 366 }
+                                            { src: `${import.meta.env.BASE_URL}${recipe.image.large}`, width: 1000 },
+                                            { src: `${import.meta.env.BASE_URL}${recipe.image.small}`, width: 366 }
                                         ]}
                                         title={recipe.title}
                                         overview={recipe.overview}
