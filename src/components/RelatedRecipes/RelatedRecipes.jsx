@@ -12,8 +12,8 @@ export default function RelatedRecipes({ recipeId, limit = 3 }) {
                 {otherRecipes.map((recipe) => (
                     <RecipeCard
                         img={[
-                            { src: recipe.image.large, width: 1000 },
-                            { src: recipe.image.small, width: 366 },
+                            { src: `${import.meta.env.BASE_URL}${recipe.image.large}`, width: 1000 },
+                            { src: `${import.meta.env.BASE_URL}${recipe.image.small}`, width: 366 }
                         ]}
                         title={recipe.title}
                         overview={recipe.overview}
