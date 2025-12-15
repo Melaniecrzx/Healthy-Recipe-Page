@@ -1,0 +1,101 @@
+@import "tailwindcss";
+@import "@fontsource/nunito/400.css";
+@import "@fontsource/nunito/500.css";
+@import "@fontsource/nunito/600.css";
+@import "@fontsource/nunito/700.css";
+@import "@fontsource/nunito/800.css";
+
+@theme inline {
+  --color-neutral-*: initial;
+  --color-orange-*: initial;
+  --color-teal-*: initial;
+  --color-indigo-*: initial;
+}
+
+@theme {
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-200: #E0E6E3;
+  --color-neutral-300: #D0DCD9;
+  --color-neutral-600: #395852;
+  --color-neutral-900: #163A34;
+  --color-orange-500: #FE9F6B;
+  --color-teal-500: #49AC9B;
+  --color-indigo-500: #697DDB;
+
+}
+
+html, body, #root {
+  @apply bg-neutral-100 w-full min-h-screen overflow-x-hidden;
+  font-family: Nunito, sans-serif;
+}
+
+@layer utilities {
+  .font1 {
+    font-family: Nunito, sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 110%;
+    letter-spacing: -2px;
+  }
+  @media (min-width: 640px) {
+    .font1 {
+      font-size: 64px;
+
+    }
+  }
+  @media (min-width: 1024px) {
+    .font1 {
+      font-size: 72px;
+    }
+  }
+  .font2 {
+    font-family: Nunito, sans-serif;
+    font-size:40px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: -2px;
+  }
+  @media (min-width: 640px) {
+    .font2 {
+      font-size: 48px;
+
+    }
+  }
+  .font3 {
+    font-family: Nunito, sans-serif;
+    font-size:32px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -1px;
+  }
+  .font4 {
+    font-family: Nunito, sans-serif;
+    font-size:24px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -1px;
+  }
+  .font5 {
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+  }
+  .font6 {
+    font-family: Nunito, sans-serif;
+    font-size:20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+  }
+  .font7 {
+    font-family: Nunito, sans-serif;
+    font-size:18px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.3px;
+  }
+  
+
+}
